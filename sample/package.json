@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "reason dev",
+    "start": "reason dev"
+  },
+  "dependencies": {
+    "tryreason": "^0.0.12-alpha",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.9.1",
+    "@typescript-eslint/parser": "6.9.1",
+    "eslint-plugin-reason": "^0.0.6-alpha",
+    "eslint": "8.52.0",
+    "typescript": "5.2.2"
+  }
+}
