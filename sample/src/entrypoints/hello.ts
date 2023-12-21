@@ -18,7 +18,5 @@ export async function* POST() {
   }
   const { city } = await res.json()
 
-  for await (const output of reasonStream<City>(`Tell me about ${city}`)) {
-    yield output
-  }
+  return reasonStream<City>(`Tell me about ${city}`)
 }
