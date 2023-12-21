@@ -8,7 +8,7 @@
     "start": "reason dev"
   },
   "dependencies": {
-    "tryreason": "^0.0.13-alpha",
+    "tryreason": "^0.0.15-alpha",
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
