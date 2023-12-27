@@ -11,7 +11,7 @@ interface City {
 }
 
 // POST /hello
-export async function* POST() {
+export async function* POST(req: Request) {
   const res = await fetch(`http://ip-api.com/json/`)
   if (res.status !== 200) {
     return new Response('Error', { status: 500 })
