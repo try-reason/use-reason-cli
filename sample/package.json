@@ -5,10 +5,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "reason dev",
-    "start": "reason dev"
+    "start": "reason dev --no-playground"
   },
   "dependencies": {
-    "tryreason": "^0.0.16-alpha",
+    "tryreason": "^0.0.17-alpha",
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
