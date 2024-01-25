@@ -8,7 +8,7 @@
     "start": "reason dev --no-playground"
   },
   "dependencies": {
-    "tryreason": "^0.0.18-alpha",
+    "tryreason": "^0.0.19-alpha",
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
