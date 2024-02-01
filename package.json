@@ -1,6 +1,6 @@
 {
   "name": "use-reason",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "bin": {
     "try-reason": "./command/index.js"
   },

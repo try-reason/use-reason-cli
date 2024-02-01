@@ -4,7 +4,7 @@ const config = {
 
   openai: {
     key: '<your-openai-key>',
-    defaultModel: '<your-default-model>'
+    defaultModel: 'gpt-3.5-turbo'
   },
 }
 
